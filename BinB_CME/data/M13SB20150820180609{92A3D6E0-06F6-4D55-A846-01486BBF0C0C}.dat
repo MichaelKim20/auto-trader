@@ -1,0 +1,19 @@
+<Station>
+<SessionID>M13SB20150820180609{92A3D6E0-06F6-4D55-A846-01486BBF0C0C}</SessionID>
+<ApplicationName>MXTraderB-CME</ApplicationName>
+<OPSUserID>MKKIM</OPSUserID>
+<OPSSessionId>20150820180609</OPSSessionId>
+<SecUserName>sky09376</SecUserName>
+<SecTradeMode>1</SecTradeMode>
+<Version>6.227</Version>
+<BuilderDate>(2015년 8월 18일 16시 00분)</BuilderDate>
+<AgentCode>M</AgentCode>
+<PGMCode>13</PGMCode>
+<GradeCode>S</GradeCode>
+<SecCode>B</SecCode>
+<TradeMarketCode></TradeMarketCode>
+<Date>20150820</Date>
+<Time>180604</Time>
+<LogFile>
+</LogFile>
+</Station>

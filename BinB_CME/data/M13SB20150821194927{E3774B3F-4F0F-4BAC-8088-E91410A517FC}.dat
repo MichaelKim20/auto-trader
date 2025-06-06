@@ -1,0 +1,1265 @@
+<Station>
+<SessionID>M13SB20150821194927{E3774B3F-4F0F-4BAC-8088-E91410A517FC}</SessionID>
+<ApplicationName>MXTraderB-CME</ApplicationName>
+<OPSUserID>MXDEV</OPSUserID>
+<OPSSessionId>20150821194927</OPSSessionId>
+<SecUserName>sky09376</SecUserName>
+<SecTradeMode>0</SecTradeMode>
+<Version>6.227</Version>
+<BuilderDate>(2015년 8월 18일 16시 00분)</BuilderDate>
+<AgentCode>M</AgentCode>
+<PGMCode>13</PGMCode>
+<GradeCode>S</GradeCode>
+<SecCode>B</SecCode>
+<TradeMarketCode></TradeMarketCode>
+<Date>20150821</Date>
+<Time>195040</Time>
+<StopedBlock>
+<BLOCK NAME="QS1" KEY="{1191754F-0B8D-4E4E-A905-7512A3C4B612}" >
+<OPTION>
+<VALUE KEY="ACCOUNT_NO" TYPE="STRING"><![CDATA[2582601002]]></VALUE>
+<VALUE KEY="ACCOUNT_PW" TYPE="STRING"><![CDATA[9999]]></VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="ORDER_PRICETYPE" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="ORDER_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SECOND_ORDER_DELAY_TIME" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="TIME_DIFFRENCE" TYPE="DOUBLE">-0.291666666666667</VALUE>
+<VALUE KEY="BLOCK_NAME" TYPE="STRING"><![CDATA[]]></VALUE>
+<VALUE KEY="TIMEFRAME" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SYSTEM_MODE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_STEP" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="ACTION_ON_START" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="NOTRADE_FIRST_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_STAND_DATE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="STAND_DATE" TYPE="INTEGER">42237</VALUE>
+<VALUE KEY="USE_RISK_MAX_LOSS" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_LOSS" TYPE="DOUBLE">-500</VALUE>
+<VALUE KEY="USE_RISK_MAX_PROFIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_PROFIT" TYPE="DOUBLE">5000</VALUE>
+<VALUE KEY="USE_REALTIME_RISK_CHECK" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SIGNAL_MERGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_EVERYBAR" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MMEBBeforFirstSignal" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="ChangeSystemValue" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_CPTIMER" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CPINTERVAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_0" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_A_1" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_0" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_1" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_T_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_S_0" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_1" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_2" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_3" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_4" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_V_0" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_1" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_2" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_3" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_4" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+<VALUE KEY="POINT_VALUE" TYPE="DOUBLE">1000</VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_NAME" TYPE="STRING"><![CDATA[QS1]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_FILENAME" TYPE="STRING"><![CDATA[QS1.dat]]></VALUE>
+<VALUE KEY="USE_SEND_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SEND_SIGNAL_FOLDERNAME" TYPE="STRING"><![CDATA[D:\WorkSpace_MTX\MTXGF02\BinB_CME\]]></VALUE>
+</OPTION>
+<TRADESTRATEGY>
+<VALUE KEY="MAJOR_VALUE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CATEGORY" TYPE="STRING"><![CDATA[STC-T1]]></VALUE>
+<VALUE KEY="TYPE" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="NAME" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="LENGTH1" TYPE="INTEGER">30</VALUE>
+<VALUE KEY="LENGTH2" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="LENGTH3" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_STD_VALUE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_VALUE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF1_PRICEMETHOD" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM1_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM1_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM2_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM2_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM3_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM3_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM4_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM4_V2" TYPE="DOUBLE">2</VALUE>
+<VALUE KEY="RF1_USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="RF1_TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_VALUE_TYPE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_LENGTH" TYPE="INTEGER">38</VALUE>
+<VALUE KEY="RF2_PRECISION" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="RF2_AVERAGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF3_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_RANDOM_TRADE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RANDOM_CASE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_ENTER_DELAY" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="DELAY_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_LOSSCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_PROFITCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_TRAILINGSTOP" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="LOSSCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="PROFITCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_2" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+</TRADESTRATEGY>
+</BLOCK>
+<SystemManager>
+<m_Start>false</m_Start>
+</SystemManager>
+<OrderManager>
+<m_State>0</m_State>
+<m_Profit>0</m_Profit>
+<m_TradeCount>1</m_TradeCount>
+<m_SystemPosition>0</m_SystemPosition>
+<m_TradePosition>0</m_TradePosition>
+<m_Commission>0</m_Commission>
+<SignalCollection>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.07</m_CalcOrderPrice>
+<m_Transition>0</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>0</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821124200</m_DateTime>
+<m_Signal>3</m_Signal>
+<m_CorrectSignal>3</m_CorrectSignal>
+<m_Price>41.04</m_Price>
+<m_ConfirmDateTime>18991230000000</m_ConfirmDateTime>
+<m_EnterCount>1</m_EnterCount>
+<m_ExitCount>0</m_ExitCount>
+<m_CountOfSendingOrder>2</m_CountOfSendingOrder>
+<m_OrderSequence>1</m_OrderSequence>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderDateTime>20150821124934</m_OrderDateTime>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderPrice>41.07</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderType>2</m_OrderType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrgOrderNumber></m_OrgOrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ConfirmTime>18991230000000</m_ConfirmTime>
+<m_CanRetry>true</m_CanRetry>
+<m_RetryCount>2</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>20150821194934</m_RetryTime>
+<m_DelaySecond>3</m_DelaySecond>
+<m_ProcessStep>21</m_ProcessStep>
+<m_TradeValue>0</m_TradeValue>
+<m_TradePriceOfProfit>0</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>0</m_TradeVolumeOfProfit>
+<m_Profit>0</m_Profit>
+</SignalItem>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.06</m_CalcOrderPrice>
+<m_Transition>0</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>1</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821124934</m_DateTime>
+<m_Signal>4</m_Signal>
+<m_CorrectSignal>4</m_CorrectSignal>
+<m_Price>41.07</m_Price>
+<m_ConfirmDateTime>18991230000000</m_ConfirmDateTime>
+<m_EnterCount>0</m_EnterCount>
+<m_ExitCount>1</m_ExitCount>
+<m_CountOfSendingOrder>0</m_CountOfSendingOrder>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderDataType>0</m_OrderDataType>
+<m_OrderDateTime>18991230000000</m_OrderDateTime>
+<m_OrderPriceType>2</m_OrderPriceType>
+<m_OrderPrice>41.06</m_OrderPrice>
+<m_OrderVolume>0</m_OrderVolume>
+<m_OrderType>1</m_OrderType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrgOrderNumber></m_OrgOrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ConfirmTime>18991230000000</m_ConfirmTime>
+<m_CanRetry>false</m_CanRetry>
+<m_RetryCount>0</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>18991230000000</m_RetryTime>
+<m_DelaySecond>5</m_DelaySecond>
+<m_ProcessStep>21</m_ProcessStep>
+<m_TradeValue>0</m_TradeValue>
+<m_TradePriceOfProfit>0</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>0</m_TradeVolumeOfProfit>
+<m_Profit>0</m_Profit>
+</SignalItem>
+</SignalCollection>
+<SignalOrderCollection>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821124930</m_OrderDateTime>
+<m_OrderPrice>41.07</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ProcessStep>7</m_ProcessStep>
+<m_MessageCode>M60001</m_MessageCode>
+<m_MessageText>23:    1: 비밀번호를 확인하십시요.                                                      </m_MessageText>
+</OrderItem>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>1</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>2</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821124934</m_OrderDateTime>
+<m_OrderPrice>41.07</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ProcessStep>24</m_ProcessStep>
+<m_MessageCode>M60001</m_MessageCode>
+<m_MessageText>33:    1: 비밀번호를 확인하십시요.                                                      </m_MessageText>
+</OrderItem>
+</SignalOrderCollection>
+<SignalTradeCollection>
+</SignalTradeCollection>
+<AdjustCollection>
+</AdjustCollection>
+<AdjustOrderCollection>
+</AdjustOrderCollection>
+<AdjustTradeCollection>
+</AdjustTradeCollection>
+</OrderManager>
+<LogCollection>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194934</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문이 정상적으로 처리되지 않고 증권사에서 오류를 반환하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194934</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>33:    1: 비밀번호를 확인하십시요.                                                       - M60001</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194934</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194930</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문이 정상적으로 처리되지 않고 증권사에서 오류를 반환하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194930</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>23:    1: 비밀번호를 확인하십시요.                                                       - M60001</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194930</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194930</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호발생 신호순번:0; 신호종류:매수진입</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194929</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 시작합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194929</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 정상가동하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194929</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작중입니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194929</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작합니다.Version:6.227</m_Message>
+</LogItem>
+</LogCollection>
+</StopedBlock>
+<StopedBlock>
+<BLOCK NAME="QS1" KEY="{1191754F-0B8D-4E4E-A905-7512A3C4B612}" >
+<OPTION>
+<VALUE KEY="ACCOUNT_NO" TYPE="STRING"><![CDATA[2582601002]]></VALUE>
+<VALUE KEY="ACCOUNT_PW" TYPE="STRING"><![CDATA[1230]]></VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="ORDER_PRICETYPE" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="ORDER_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SECOND_ORDER_DELAY_TIME" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="TIME_DIFFRENCE" TYPE="DOUBLE">-0.291666666666667</VALUE>
+<VALUE KEY="BLOCK_NAME" TYPE="STRING"><![CDATA[]]></VALUE>
+<VALUE KEY="TIMEFRAME" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SYSTEM_MODE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_STEP" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="ACTION_ON_START" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="NOTRADE_FIRST_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_STAND_DATE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="STAND_DATE" TYPE="INTEGER">42237</VALUE>
+<VALUE KEY="USE_RISK_MAX_LOSS" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_LOSS" TYPE="DOUBLE">-500</VALUE>
+<VALUE KEY="USE_RISK_MAX_PROFIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_PROFIT" TYPE="DOUBLE">5000</VALUE>
+<VALUE KEY="USE_REALTIME_RISK_CHECK" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SIGNAL_MERGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_EVERYBAR" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MMEBBeforFirstSignal" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="ChangeSystemValue" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_CPTIMER" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CPINTERVAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_0" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_A_1" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_0" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_1" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_T_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_S_0" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_1" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_2" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_3" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_4" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_V_0" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_1" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_2" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_3" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_4" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+<VALUE KEY="POINT_VALUE" TYPE="DOUBLE">1000</VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_NAME" TYPE="STRING"><![CDATA[QS1]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_FILENAME" TYPE="STRING"><![CDATA[QS1.dat]]></VALUE>
+<VALUE KEY="USE_SEND_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SEND_SIGNAL_FOLDERNAME" TYPE="STRING"><![CDATA[D:\WorkSpace_MTX\MTXGF02\BinB_CME\]]></VALUE>
+</OPTION>
+<TRADESTRATEGY>
+<VALUE KEY="MAJOR_VALUE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CATEGORY" TYPE="STRING"><![CDATA[STC-T1]]></VALUE>
+<VALUE KEY="TYPE" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="NAME" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="LENGTH1" TYPE="INTEGER">30</VALUE>
+<VALUE KEY="LENGTH2" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="LENGTH3" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_STD_VALUE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_VALUE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF1_PRICEMETHOD" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM1_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM1_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM2_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM2_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM3_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM3_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM4_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM4_V2" TYPE="DOUBLE">2</VALUE>
+<VALUE KEY="RF1_USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="RF1_TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_VALUE_TYPE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_LENGTH" TYPE="INTEGER">38</VALUE>
+<VALUE KEY="RF2_PRECISION" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="RF2_AVERAGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF3_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_RANDOM_TRADE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RANDOM_CASE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_ENTER_DELAY" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="DELAY_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_LOSSCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_PROFITCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_TRAILINGSTOP" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="LOSSCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="PROFITCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_2" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+</TRADESTRATEGY>
+</BLOCK>
+<SystemManager>
+<m_Start>false</m_Start>
+</SystemManager>
+<OrderManager>
+<m_State>0</m_State>
+<m_Profit>0.00999999999999801</m_Profit>
+<m_TradeCount>1</m_TradeCount>
+<m_SystemPosition>0</m_SystemPosition>
+<m_TradePosition>0</m_TradePosition>
+<m_Commission>0</m_Commission>
+<SignalCollection>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.04</m_CalcOrderPrice>
+<m_Transition>0</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>0</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821124200</m_DateTime>
+<m_Signal>3</m_Signal>
+<m_CorrectSignal>3</m_CorrectSignal>
+<m_Price>41.04</m_Price>
+<m_ConfirmDateTime>20150821195001</m_ConfirmDateTime>
+<m_EnterCount>1</m_EnterCount>
+<m_ExitCount>0</m_ExitCount>
+<m_CountOfSendingOrder>3</m_CountOfSendingOrder>
+<m_OrderSequence>2</m_OrderSequence>
+<m_OrderDataType>3</m_OrderDataType>
+<m_OrderDateTime>20150821125016</m_OrderDateTime>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderType>2</m_OrderType>
+<m_OrderNumber>181</m_OrderNumber>
+<m_OrgOrderNumber>180</m_OrgOrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ConfirmTime>20150821195001</m_ConfirmTime>
+<m_CanRetry>false</m_CanRetry>
+<m_RetryCount>0</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>20150821194957</m_RetryTime>
+<m_DelaySecond>3</m_DelaySecond>
+<m_ProcessStep>21</m_ProcessStep>
+<m_TradeValue>41.04</m_TradeValue>
+<m_TradePriceOfProfit>41.04</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>1</m_TradeVolumeOfProfit>
+<m_Profit>0</m_Profit>
+</SignalItem>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.04</m_CalcOrderPrice>
+<m_Transition>0</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>1</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821125016</m_DateTime>
+<m_Signal>4</m_Signal>
+<m_CorrectSignal>4</m_CorrectSignal>
+<m_Price>41.05</m_Price>
+<m_ConfirmDateTime>18991230000000</m_ConfirmDateTime>
+<m_EnterCount>0</m_EnterCount>
+<m_ExitCount>1</m_ExitCount>
+<m_CountOfSendingOrder>0</m_CountOfSendingOrder>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderDataType>0</m_OrderDataType>
+<m_OrderDateTime>18991230000000</m_OrderDateTime>
+<m_OrderPriceType>2</m_OrderPriceType>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>0</m_OrderVolume>
+<m_OrderType>1</m_OrderType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrgOrderNumber></m_OrgOrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ConfirmTime>18991230000000</m_ConfirmTime>
+<m_CanRetry>false</m_CanRetry>
+<m_RetryCount>0</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>18991230000000</m_RetryTime>
+<m_DelaySecond>5</m_DelaySecond>
+<m_ProcessStep>21</m_ProcessStep>
+<m_TradeValue>0</m_TradeValue>
+<m_TradePriceOfProfit>0</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>0</m_TradeVolumeOfProfit>
+<m_Profit>0</m_Profit>
+</SignalItem>
+</SignalCollection>
+<SignalOrderCollection>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821124941</m_OrderDateTime>
+<m_OrderPrice>41.08</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber></m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ProcessStep>7</m_ProcessStep>
+<m_MessageCode>M90001</m_MessageCode>
+<m_MessageText>응답시간이 초과되었습니다.</m_MessageText>
+</OrderItem>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>1</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>2</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821125001</m_OrderDateTime>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber>180</m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ProcessStep>7</m_ProcessStep>
+<m_MessageCode>M00000</m_MessageCode>
+<m_MessageText>33:주문이 정상처리되었습니다.                                                      </m_MessageText>
+</OrderItem>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>2</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>3</m_CountOfSendingOrder>
+<m_OrderDataType>3</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821125016</m_OrderDateTime>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber>181</m_OrderNumber>
+<m_OrderNumber>180</m_OrderNumber>
+<m_TradePrice>0</m_TradePrice>
+<m_TradeVolume>0</m_TradeVolume>
+<m_ProcessStep>21</m_ProcessStep>
+<m_MessageCode>M00000</m_MessageCode>
+<m_MessageText>85:주문이 정상처리되었습니다.                                                      </m_MessageText>
+</OrderItem>
+</SignalOrderCollection>
+<SignalTradeCollection>
+</SignalTradeCollection>
+<AdjustCollection>
+</AdjustCollection>
+<AdjustOrderCollection>
+</AdjustOrderCollection>
+<AdjustTradeCollection>
+</AdjustTradeCollection>
+</OrderManager>
+<LogCollection>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 위한 개별아이템을 정지합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>타이머작업을 정지하는 동안 대기 합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 종료합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>취소주문응답데이터를 수신하여 처리하였습니다(주문번호=181).</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>취소주문을 전송합니다(원주문번호=180).</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호발생 신호순번:1; 신호종류:매수청산</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>청산신호를 생성한다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>미처리된 신호를 제거한다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>타이머작업을 정지하는 동안 대기 합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195016</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호매매를 종료합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195001</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문확인데이터를 수신하여 처리하였습니다.(주문번호=180)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195001</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문접수데이터를 수신하여 처리하였습니다.(주문번호=180)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195001</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문응답데이터를 수신하여 처리하였습니다(주문번호=180).</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195001</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194957</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문이 정상적으로 처리되지 않고 증권사에서 오류를 반환하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194957</m_DateTime>
+<m_Type>2</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>응답시간이 초과되었습니다. - M90001</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194941</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194941</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호발생 신호순번:0; 신호종류:매수진입</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194940</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 시작합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194940</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 정상가동하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194940</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작중입니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821194940</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작합니다.Version:6.227</m_Message>
+</LogItem>
+</LogCollection>
+</StopedBlock>
+<StopedBlock>
+<BLOCK NAME="QS1" KEY="{1191754F-0B8D-4E4E-A905-7512A3C4B612}" >
+<OPTION>
+<VALUE KEY="ACCOUNT_NO" TYPE="STRING"><![CDATA[2582601002]]></VALUE>
+<VALUE KEY="ACCOUNT_PW" TYPE="STRING"><![CDATA[1230]]></VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="ORDER_PRICETYPE" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="ORDER_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SECOND_ORDER_DELAY_TIME" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="TIME_DIFFRENCE" TYPE="DOUBLE">-0.291666666666667</VALUE>
+<VALUE KEY="BLOCK_NAME" TYPE="STRING"><![CDATA[]]></VALUE>
+<VALUE KEY="TIMEFRAME" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SYSTEM_MODE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="TICK_STEP" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="ACTION_ON_START" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="NOTRADE_FIRST_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_STAND_DATE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="STAND_DATE" TYPE="INTEGER">42237</VALUE>
+<VALUE KEY="USE_RISK_MAX_LOSS" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_LOSS" TYPE="DOUBLE">-500</VALUE>
+<VALUE KEY="USE_RISK_MAX_PROFIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RISK_MAX_PROFIT" TYPE="DOUBLE">5000</VALUE>
+<VALUE KEY="USE_REALTIME_RISK_CHECK" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="SIGNAL_MERGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_EVERYBAR" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MMEBBeforFirstSignal" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="MERGE_MATCH_COUNT" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="ChangeSystemValue" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_CPTIMER" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CPINTERVAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_0" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_A_1" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_A_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_0" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_1" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CP_T_2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_3" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_T_4" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="CP_S_0" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_1" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_2" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_3" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_S_4" TYPE="INTEGER">60</VALUE>
+<VALUE KEY="CP_V_0" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_1" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_2" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_3" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="CP_V_4" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+<VALUE KEY="POINT_VALUE" TYPE="DOUBLE">1000</VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_NAME" TYPE="STRING"><![CDATA[QS1]]></VALUE>
+<VALUE KEY="SEND_SIGNAL_FILENAME" TYPE="STRING"><![CDATA[QS1.dat]]></VALUE>
+<VALUE KEY="USE_SEND_SIGNAL" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SEND_SIGNAL_FOLDERNAME" TYPE="STRING"><![CDATA[D:\WorkSpace_MTX\MTXGF02\BinB_CME\]]></VALUE>
+</OPTION>
+<TRADESTRATEGY>
+<VALUE KEY="MAJOR_VALUE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="CATEGORY" TYPE="STRING"><![CDATA[STC-T1]]></VALUE>
+<VALUE KEY="TYPE" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="NAME" TYPE="STRING"><![CDATA[기본값]]></VALUE>
+<VALUE KEY="LENGTH1" TYPE="INTEGER">30</VALUE>
+<VALUE KEY="LENGTH2" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="LENGTH3" TYPE="INTEGER">10</VALUE>
+<VALUE KEY="USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_STD_VALUE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_VALUE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF1_PRICEMETHOD" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM1_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM1_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM2_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM2_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM3_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM3_V2" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_PM4_V1" TYPE="INTEGER">5</VALUE>
+<VALUE KEY="RF1_PM4_V2" TYPE="DOUBLE">2</VALUE>
+<VALUE KEY="RF1_USE_TOLERANCE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF1_TOLERANCE" TYPE="DOUBLE">0.01</VALUE>
+<VALUE KEY="RF1_TOLERANCE_UNIT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_VALUE_TYPE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RF2_LENGTH" TYPE="INTEGER">38</VALUE>
+<VALUE KEY="RF2_PRECISION" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="RF2_AVERAGE_TYPE" TYPE="INTEGER">1</VALUE>
+<VALUE KEY="RF3_USE_CONDITION" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_RANDOM_TRADE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="RANDOM_CASE" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_ENTER_DELAY" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="DELAY_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="MAX_ENTER_COUNT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_LOSSCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_PROFITCUT" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="USE_TRAILINGSTOP" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="LOSSCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="PROFITCUT_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_1" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="TRAILINGSTOP_VALUE_2" TYPE="DOUBLE">0</VALUE>
+<VALUE KEY="COUNTRY_NO" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="GROUP_NO" TYPE="INTEGER">4</VALUE>
+<VALUE KEY="MARKET_NO" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="SYMBOL" TYPE="STRING"><![CDATA[WTI001_FN]]></VALUE>
+<VALUE KEY="SEC_SYMBOL" TYPE="STRING"><![CDATA[CL]]></VALUE>
+<VALUE KEY="CONTRACT" TYPE="STRING"><![CDATA[V15]]></VALUE>
+<VALUE KEY="TRADESYMBOL" TYPE="STRING"><![CDATA[CLV15]]></VALUE>
+<VALUE KEY="START_OFFSET" TYPE="INTEGER">3</VALUE>
+<VALUE KEY="STOP_OFFSET" TYPE="INTEGER">2</VALUE>
+<VALUE KEY="USE_REGULAR_MARKET" TYPE="INTEGER">0</VALUE>
+<VALUE KEY="REGULAR_START_TIME" TYPE="INTEGER">55800000</VALUE>
+<VALUE KEY="REGULAR_STOP_TIME" TYPE="INTEGER">79200000</VALUE>
+<VALUE KEY="START_TIME" TYPE="INTEGER">180000</VALUE>
+<VALUE KEY="STOP_TIME" TYPE="INTEGER">83580000</VALUE>
+</TRADESTRATEGY>
+</BLOCK>
+<SystemManager>
+<m_Start>false</m_Start>
+</SystemManager>
+<OrderManager>
+<m_State>0</m_State>
+<m_Profit>-0.00999999999999801</m_Profit>
+<m_TradeCount>2</m_TradeCount>
+<m_SystemPosition>0</m_SystemPosition>
+<m_TradePosition>0</m_TradePosition>
+<m_Commission>0</m_Commission>
+<SignalCollection>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.05</m_CalcOrderPrice>
+<m_Transition>9</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>0</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821124200</m_DateTime>
+<m_Signal>3</m_Signal>
+<m_CorrectSignal>3</m_CorrectSignal>
+<m_Price>41.04</m_Price>
+<m_ConfirmDateTime>20150821195021</m_ConfirmDateTime>
+<m_EnterCount>1</m_EnterCount>
+<m_ExitCount>0</m_ExitCount>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderDateTime>20150821125021</m_OrderDateTime>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderPrice>41.05</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderType>2</m_OrderType>
+<m_OrderNumber>182</m_OrderNumber>
+<m_OrgOrderNumber></m_OrgOrderNumber>
+<m_TradePrice>41.05</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+<m_ConfirmTime>20150821195021</m_ConfirmTime>
+<m_CanRetry>false</m_CanRetry>
+<m_RetryCount>0</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>18991230000000</m_RetryTime>
+<m_DelaySecond>5</m_DelaySecond>
+<m_ProcessStep>6</m_ProcessStep>
+<m_TradeValue>41.05</m_TradeValue>
+<m_TradePriceOfProfit>41.05</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>1</m_TradeVolumeOfProfit>
+<m_Profit>0</m_Profit>
+</SignalItem>
+<SignalItem>
+<m_Enable>true</m_Enable>
+<m_CalcOrderPrice>41.04</m_CalcOrderPrice>
+<m_Transition>9</m_Transition>
+<m_SystemNo>0</m_SystemNo>
+<m_SignalSequence>1</m_SignalSequence>
+<m_BarIndex>0</m_BarIndex>
+<m_DateTime>20150821125037</m_DateTime>
+<m_Signal>4</m_Signal>
+<m_CorrectSignal>4</m_CorrectSignal>
+<m_Price>41.04</m_Price>
+<m_ConfirmDateTime>20150821195037</m_ConfirmDateTime>
+<m_EnterCount>0</m_EnterCount>
+<m_ExitCount>1</m_ExitCount>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderSequence>1</m_OrderSequence>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderDateTime>20150821125037</m_OrderDateTime>
+<m_OrderPriceType>2</m_OrderPriceType>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderType>1</m_OrderType>
+<m_OrderNumber>183</m_OrderNumber>
+<m_OrgOrderNumber></m_OrgOrderNumber>
+<m_TradePrice>41.04</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+<m_ConfirmTime>20150821195037</m_ConfirmTime>
+<m_CanRetry>false</m_CanRetry>
+<m_RetryCount>0</m_RetryCount>
+<m_RetryCountOfReject>0</m_RetryCountOfReject>
+<m_RetryTime>18991230000000</m_RetryTime>
+<m_DelaySecond>5</m_DelaySecond>
+<m_ProcessStep>6</m_ProcessStep>
+<m_TradeValue>41.04</m_TradeValue>
+<m_TradePriceOfProfit>41.04</m_TradePriceOfProfit>
+<m_TradeVolumeOfProfit>1</m_TradeVolumeOfProfit>
+<m_Profit>-0.00999999999999801</m_Profit>
+</SignalItem>
+</SignalCollection>
+<SignalOrderCollection>
+<OrderItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>0</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>2</m_OrderType>
+<m_OrderDateTime>20150821125021</m_OrderDateTime>
+<m_OrderPrice>41.05</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>1</m_OrderPriceType>
+<m_OrderNumber>182</m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>41.05</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+<m_ProcessStep>6</m_ProcessStep>
+<m_MessageCode>M00000</m_MessageCode>
+<m_MessageText>23:주문이 정상처리되었습니다.                                                      </m_MessageText>
+</OrderItem>
+<OrderItem>
+<m_SignalSequence>1</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>1</m_OrderSequence>
+<m_OrderCollectionType>0</m_OrderCollectionType>
+<m_CountOfSendingOrder>1</m_CountOfSendingOrder>
+<m_OrderDataType>1</m_OrderDataType>
+<m_OrderType>1</m_OrderType>
+<m_OrderDateTime>20150821125037</m_OrderDateTime>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_OrderPriceType>2</m_OrderPriceType>
+<m_OrderNumber>183</m_OrderNumber>
+<m_OrderNumber></m_OrderNumber>
+<m_TradePrice>41.04</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+<m_ProcessStep>6</m_ProcessStep>
+<m_MessageCode>M00000</m_MessageCode>
+<m_MessageText>33:주문이 정상처리되었습니다.                                                      </m_MessageText>
+</OrderItem>
+</SignalOrderCollection>
+<SignalTradeCollection>
+<TradeItem>
+<m_SignalSequence>0</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>0</m_OrderSequence>
+<m_TradeSequence>0</m_TradeSequence>
+<m_OrderType>2</m_OrderType>
+<m_OrderPrice>41.05</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_TradePrice>41.05</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+</TradeItem>
+<TradeItem>
+<m_SignalSequence>1</m_SignalSequence>
+<m_AdjustSequence>0</m_AdjustSequence>
+<m_OrderSequence>1</m_OrderSequence>
+<m_TradeSequence>1</m_TradeSequence>
+<m_OrderType>1</m_OrderType>
+<m_OrderPrice>41.04</m_OrderPrice>
+<m_OrderVolume>1</m_OrderVolume>
+<m_TradePrice>41.04</m_TradePrice>
+<m_TradeVolume>1</m_TradeVolume>
+</TradeItem>
+</SignalTradeCollection>
+<AdjustCollection>
+</AdjustCollection>
+<AdjustOrderCollection>
+</AdjustOrderCollection>
+<AdjustTradeCollection>
+</AdjustTradeCollection>
+</OrderManager>
+<LogCollection>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문확인데이터를 수신하여 처리하였습니다.(주문번호=183)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문접수데이터를 수신하여 처리하였습니다.(주문번호=183)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 위한 개별아이템을 정지합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>타이머작업을 정지하는 동안 대기 합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 종료합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문응답데이터를 수신하여 처리하였습니다(주문번호=183).</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호발생 신호순번:1; 신호종류:매수청산</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>청산신호를 생성한다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>미처리된 신호를 제거한다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>타이머작업을 정지하는 동안 대기 합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195037</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호매매를 종료합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195026</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>체결데이터가 접수 처리되었습니다.(주문번호=182)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195021</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문확인데이터를 수신하여 처리하였습니다.(주문번호=182)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195021</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문접수데이터를 수신하여 처리하였습니다.(주문번호=182)</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195021</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>주문응답데이터를 수신하여 처리하였습니다(주문번호=182).</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195021</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신규주문을 전송합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195021</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>신호발생 신호순번:0; 신호종류:매수진입</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195020</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXSystemManager</m_ClassName>
+<m_Message>신호생성을 시작합니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195020</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 정상가동하였습니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195020</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작중입니다.</m_Message>
+</LogItem>
+<LogItem>
+<m_BlockName></m_BlockName>
+<m_DateTime>20150821195020</m_DateTime>
+<m_Type>1</m_Type>
+<m_ClassName>CMXOrderManager</m_ClassName>
+<m_Message>자동주문 시스템을 시작합니다.Version:6.227</m_Message>
+</LogItem>
+</LogCollection>
+</StopedBlock>
+<LogFile>
+</LogFile>
+</Station>

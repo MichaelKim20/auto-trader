@@ -1,0 +1,45 @@
+package APIWR_KRX;
+
+{$R *.res}
+{$R '..\Sources\APIWR_KRX\Agent\WRAXLib_TLB.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  IndyCore,
+  IndySystem,
+  IndyProtocols,
+  DCPdelphi2009,
+  MXPackage,
+  CMPackage;
+
+contains
+  WRAXLib_TLB in '..\Sources\APIWR_KRX\Agent\WRAXLib_TLB.pas',
+  WRIOMaker in '..\Sources\APIWR_KRX\DataModel\WRIOMaker.pas',
+  FNWRAgentManager in '..\Sources\APIWR_KRX\Core\FNWRAgentManager.pas';
+
+end.

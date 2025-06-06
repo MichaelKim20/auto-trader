@@ -1,0 +1,24 @@
+[TRINFO]
+TRName    =예스스탁 자동매매/예스스팟 동의서조회
+TRCode    =g11004.AQ0138%;
+ScreenNo  = ; 실제 화면 번호
+Server    =1; 접속 서버
+Compress  =1; 압축 	0/1
+Encrypt   =0; 암호화	0/1
+PublicAuth=1; 공인인증 0/1
+OutputCnt =1;Fid 출력값 갯수
+DataHeader=3; 2:해외주문, 3:해외조회, 4:국내주문, 5:국내조회
+
+[INPUT]
+사용자아이디   	=	000, 08, 0, A;
+
+[OUTPUT]
+처리코드  = 0,  5, 0, A;
+처리메시지= 5, 80, 0, A;
+
+@START_OutRec1			=*,  5, 0, A;/* rowcnt        */
+	자동매매사용여부	=*,  1, 0, A;/* Y:등록, N:미등록 */
+	예스스팟사용여부	=*,  1, 0, A;/* Y:등록, N:미등록 */
+	등록일자 			=*,  8, 0, A;
+	등록시간 			=*,  6, 0, A;
+@END_OutRec1

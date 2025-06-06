@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2FDA2559-ECD7-4FB4-85DA-5DBCA75B5DC8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Graphics32\Packages\GR32_DSGN_RSXE5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Graphics32\Packages\GR32_RSXE5.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GR32_DSGN_RSXE5">
+        <MSBuild Projects="Graphics32\Packages\GR32_DSGN_RSXE5.dproj"/>
+    </Target>
+    <Target Name="GR32_DSGN_RSXE5:Clean">
+        <MSBuild Projects="Graphics32\Packages\GR32_DSGN_RSXE5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GR32_DSGN_RSXE5:Make">
+        <MSBuild Projects="Graphics32\Packages\GR32_DSGN_RSXE5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GR32_RSXE5">
+        <MSBuild Projects="Graphics32\Packages\GR32_RSXE5.dproj"/>
+    </Target>
+    <Target Name="GR32_RSXE5:Clean">
+        <MSBuild Projects="Graphics32\Packages\GR32_RSXE5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GR32_RSXE5:Make">
+        <MSBuild Projects="Graphics32\Packages\GR32_RSXE5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GR32_DSGN_RSXE5;GR32_RSXE5"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GR32_DSGN_RSXE5:Clean;GR32_RSXE5:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GR32_DSGN_RSXE5:Make;GR32_RSXE5:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,93 @@
+package MKPackage;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  IndyCore,
+  IndySystem,
+  IndyProtocols,
+  CMPackage,
+  GR32_RSXE5;
+
+contains
+  MKAVAndrewsPitchFork in '..\Sources\MKPackage\MKAVAndrewsPitchFork.pas',
+  MKAVChartBlock in '..\Sources\MKPackage\MKAVChartBlock.pas',
+  MKAVChartBlockManager in '..\Sources\MKPackage\MKAVChartBlockManager.pas',
+  MKAVChartControl in '..\Sources\MKPackage\MKAVChartControl.pas',
+  MKAVChartDataManager in '..\Sources\MKPackage\MKAVChartDataManager.pas',
+  MKAVChartTraceEvent in '..\Sources\MKPackage\MKAVChartTraceEvent.pas',
+  MKAVCircle in '..\Sources\MKPackage\MKAVCircle.pas',
+  MKAVCrossLine in '..\Sources\MKPackage\MKAVCrossLine.pas',
+  MKAVDrawingChartObject in '..\Sources\MKPackage\MKAVDrawingChartObject.pas',
+  MKAVDrawingObject in '..\Sources\MKPackage\MKAVDrawingObject.pas',
+  MKAVDrawManager in '..\Sources\MKPackage\MKAVDrawManager.pas',
+  MKAVFibonacciRetracement in '..\Sources\MKPackage\MKAVFibonacciRetracement.pas',
+  MKAVFibonacciTimeZone in '..\Sources\MKPackage\MKAVFibonacciTimeZone.pas',
+  MKAVGannFan in '..\Sources\MKPackage\MKAVGannFan.pas',
+  MKAVHLine in '..\Sources\MKPackage\MKAVHLine.pas',
+  MKAVLine in '..\Sources\MKPackage\MKAVLine.pas',
+  MKAVPosInfo in '..\Sources\MKPackage\MKAVPosInfo.pas',
+  MKAVPosValue in '..\Sources\MKPackage\MKAVPosValue.pas',
+  MKAVRectangle in '..\Sources\MKPackage\MKAVRectangle.pas',
+  MKAVRequestData in '..\Sources\MKPackage\MKAVRequestData.pas',
+  MKAVSpeedLine in '..\Sources\MKPackage\MKAVSpeedLine.pas',
+  MKAVSplit in '..\Sources\MKPackage\MKAVSplit.pas',
+  MKAVVLine in '..\Sources\MKPackage\MKAVVLine.pas',
+  MKColorPanel in '..\Sources\MKPackage\MKColorPanel.pas',
+  MKDefine in '..\Sources\MKPackage\MKDefine.pas',
+  MKEffectArray in '..\Sources\MKPackage\MKEffectArray.pas',
+  MKEffectData in '..\Sources\MKPackage\MKEffectData.pas',
+  MKIndicatorValue in '..\Sources\MKPackage\MKIndicatorValue.pas',
+  MKSetting in '..\Sources\MKPackage\MKSetting.pas',
+  MKTextInputDlg in '..\Sources\MKPackage\MKTextInputDlg.pas' {TextInputDlg},
+  MKPerformanceValueArray in '..\Sources\MKPackage\MKPerformanceValueArray.pas',
+  MKSignalArray in '..\Sources\MKPackage\MKSignalArray.pas',
+  MKSignalData in '..\Sources\MKPackage\MKSignalData.pas',
+  MKTradeArray in '..\Sources\MKPackage\MKTradeArray.pas',
+  MKTradeData in '..\Sources\MKPackage\MKTradeData.pas',
+  MKTradeSignalDefine in '..\Sources\MKPackage\MKTradeSignalDefine.pas',
+  MKTradeSystemManager in '..\Sources\MKPackage\MKTradeSystemManager.pas',
+  MKTradeStrategyConst in '..\Sources\MKPackage\MKTradeStrategyConst.pas',
+  MKLineValue in '..\Sources\MKPackage\MKLineValue.pas',
+  MKLineValueSeries in '..\Sources\MKPackage\MKLineValueSeries.pas',
+  MKLineValueSeriesCreator in '..\Sources\MKPackage\MKLineValueSeriesCreator.pas',
+  MKMaxMin in '..\Sources\MKPackage\MKMaxMin.pas',
+  MKStreamChartDataSeries in '..\Sources\MKPackage\MKStreamChartDataSeries.pas',
+  MKChartData in '..\Sources\MKPackage\MKChartData.pas',
+  MKChartDataSeries in '..\Sources\MKPackage\MKChartDataSeries.pas',
+  MKChartDefine in '..\Sources\MKPackage\MKChartDefine.pas',
+  MKColorSet in '..\Sources\MKPackage\MKColorSet.pas',
+  MKConst in '..\Sources\MKPackage\MKConst.pas',
+  MKGlobal in '..\Sources\MKPackage\MKGlobal.pas',
+  MKTradeStrategyCustom in '..\Sources\MKPackage\MKTradeStrategyCustom.pas';
+
+end.

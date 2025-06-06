@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E2D8C8A2-8775-47CB-B418-0F9B02537C33}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="MKPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\MKFutures\MKFutures.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="MKPackage">
+			<MSBuild Projects="MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Clean">
+			<MSBuild Targets="Clean" Projects="MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Make">
+			<MSBuild Targets="Make" Projects="MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKFutures">
+			<MSBuild Projects="..\MKFutures\MKFutures.dproj"/>
+		</Target>
+		<Target Name="MKFutures:Clean">
+			<MSBuild Targets="Clean" Projects="..\MKFutures\MKFutures.dproj"/>
+		</Target>
+		<Target Name="MKFutures:Make">
+			<MSBuild Targets="Make" Projects="..\MKFutures\MKFutures.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="MKPackage;MKFutures"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="MKPackage:Clean;MKFutures:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="MKPackage:Make;MKFutures:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

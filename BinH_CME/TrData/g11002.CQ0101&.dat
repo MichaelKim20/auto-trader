@@ -1,0 +1,24 @@
+[TRINFO]
+TRName    =RMS론 관리계좌 조회
+TRCode    =g11002.CQ0101&;
+ScreenNo  = ; 실제 화면 번호
+Server    =1; 접속 서버
+Compress  =1; 압축 	0/1
+Encrypt   =0; 암호화	0/1
+PublicAuth=0; 공인인증 0/1
+OutputCnt =1;Fid 출력값 갯수
+DataHeader=5; 2:해외주문, 3:해외조회, 4:국내주문, 5:국내조회
+
+[INPUT]
+사용자ID	=  0,  8, 0, A
+비밀번호	=  8,  8, 0, E ; 사용자 비밀번호
+
+[OUTPUT]
+
+@START_OutRec1= *,  4, 0, A
+	사용자ID =  *,  8, 0, A   
+	계좌번호 =  *, 11, 0, A   
+	대출구분 =  *,  1, 0, A ; F선물론, O 옵션론, A 해외론 ,N 미약정 일반
+	TMP1     =  *,  1, 0, A
+	TMP2     =  *, 16, 0, A    
+@END_OutRec1

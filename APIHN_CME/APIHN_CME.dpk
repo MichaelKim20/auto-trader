@@ -1,0 +1,43 @@
+package APIHN_CME;
+
+{$R *.res}
+{$R '..\Sources\APIHN_CME\Agent\H5MGREXLib_TLB.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  CMPackage,
+  MXPackage,
+  APIWR_CME;
+
+contains
+  H5MGREXLib_Const in '..\Sources\APIHN_CME\Agent\H5MGREXLib_Const.pas',
+  H5MGREXLib_TLB in '..\Sources\APIHN_CME\Agent\H5MGREXLib_TLB.pas',
+  FNHNCMEAgentManager in '..\Sources\APIHN_CME\Core\FNHNCMEAgentManager.pas',
+  HNIOMaker in '..\Sources\APIHN_CME\DataModel\HNIOMaker.pas';
+
+end.

@@ -1,0 +1,60 @@
+package SKQPackage;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  GR32_BDS2009,
+  CMPackage,
+  IndyProtocols,
+  IndyCore,
+  IndySystem,
+  inet,
+  xmlrtl;
+
+contains
+  FNQChartBlock in '..\Sources\SKQPackage\FNQChartBlock.pas',
+  FNQChartBlockManager in '..\Sources\SKQPackage\FNQChartBlockManager.pas',
+  FNQChartControl in '..\Sources\SKQPackage\FNQChartControl.pas',
+  FNQChartData in '..\Sources\SKQPackage\FNQChartData.pas',
+  FNQChartDataManager in '..\Sources\SKQPackage\FNQChartDataManager.pas',
+  FNQChartDataSeries in '..\Sources\SKQPackage\FNQChartDataSeries.pas',
+  FNQChartDefine in '..\Sources\SKQPackage\FNQChartDefine.pas',
+  FNQChartTraceEvent in '..\Sources\SKQPackage\FNQChartTraceEvent.pas',
+  FNQColorSet in '..\Sources\SKQPackage\FNQColorSet.pas',
+  FNQConst in '..\Sources\SKQPackage\FNQConst.pas',
+  FNQIndicatorValue in '..\Sources\SKQPackage\FNQIndicatorValue.pas',
+  FNQLineValue in '..\Sources\SKQPackage\FNQLineValue.pas',
+  FNQLineValueSeries in '..\Sources\SKQPackage\FNQLineValueSeries.pas',
+  FNQLineValueSeriesCreator in '..\Sources\SKQPackage\FNQLineValueSeriesCreator.pas',
+  FNQMaxMin in '..\Sources\SKQPackage\FNQMaxMin.pas',
+  FNQPosInfo in '..\Sources\SKQPackage\FNQPosInfo.pas',
+  FNQPosValue in '..\Sources\SKQPackage\FNQPosValue.pas',
+  FNQRequestData in '..\Sources\SKQPackage\FNQRequestData.pas',
+  FNQSetting in '..\Sources\SKQPackage\FNQSetting.pas',
+  FNQStreamChartDataSeries in '..\Sources\SKQPackage\FNQStreamChartDataSeries.pas';
+
+end.

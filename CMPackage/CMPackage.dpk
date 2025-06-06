@@ -1,0 +1,67 @@
+package CMPackage;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  IndyCore,
+  IndySystem,
+  IndyProtocols;
+
+contains
+  FNCMVariable in '..\Sources\CMPackage\FNCMVariable.pas',
+  FNDataArray in '..\Sources\CMPackage\FNDataArray.pas',
+  FNDataDelivery in '..\Sources\CMPackage\FNDataDelivery.pas',
+  FNDataObject in '..\Sources\CMPackage\FNDataObject.pas',
+  FNDataSet in '..\Sources\CMPackage\FNDataSet.pas',
+  FNDefine in '..\Sources\CMPackage\FNDefine.pas',
+  FNFile in '..\Sources\CMPackage\FNFile.pas',
+  FNGlobal in '..\Sources\CMPackage\FNGlobal.pas',
+  FNGlobalVariable in '..\Sources\CMPackage\FNGlobalVariable.pas',
+  FNIOHandler in '..\Sources\CMPackage\FNIOHandler.pas',
+  FNLoadController in '..\Sources\CMPackage\FNLoadController.pas',
+  FNLogManager in '..\Sources\CMPackage\FNLogManager.pas',
+  FNMaterialCollection in '..\Sources\CMPackage\FNMaterialCollection.pas',
+  FNMultiMap in '..\Sources\CMPackage\FNMultiMap.pas',
+  FNPacketHandler in '..\Sources\CMPackage\FNPacketHandler.pas',
+  FNPOTCollection in '..\Sources\CMPackage\FNPOTCollection.pas',
+  FNQueue in '..\Sources\CMPackage\FNQueue.pas',
+  FNQuotArray in '..\Sources\CMPackage\FNQuotArray.pas',
+  FNQuotData in '..\Sources\CMPackage\FNQuotData.pas',
+  FNRegistry in '..\Sources\CMPackage\FNRegistry.pas',
+  FNStreamPacketHandler in '..\Sources\CMPackage\FNStreamPacketHandler.pas',
+  FNMessageManager in '..\Sources\CMPackage\FNMessageManager.pas',
+  FNThread in '..\Sources\CMPackage\FNThread.pas',
+  IODataSet in '..\Sources\CMPackage\IODataSet.pas',
+  FNSocketManager in '..\Sources\CMPackage\FNSocketManager.pas',
+  FNSymbolCollection in '..\Sources\CMPackage\FNSymbolCollection.pas';
+
+end.

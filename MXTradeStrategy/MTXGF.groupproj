@@ -1,0 +1,120 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E2D8C8A2-8775-47CB-B418-0F9B02537C33}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="MXTSPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\MXPackage\MXPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\MKPackage\MKPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\SKQPackage\SKQPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\CMPackage\CMPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\QChart\QuarkChart.dproj">
+				<Dependencies>MXTSPackage.dproj;..\MXPackage\MXPackage.dproj;..\MKPackage\MKPackage.dproj;..\CMPackage\CMPackage.dproj</Dependencies>
+			</Projects>
+			<Projects Include="..\MXChart\MXChart.dproj">
+				<Dependencies>MXTSPackage.dproj;..\MXPackage\MXPackage.dproj;..\MKPackage\MKPackage.dproj;..\CMPackage\CMPackage.dproj</Dependencies>
+			</Projects>
+			<Projects Include="..\SKMatrix\SKMatrix.dproj">
+				<Dependencies>MXTSPackage.dproj;..\MXPackage\MXPackage.dproj;..\MKPackage\MKPackage.dproj;..\CMPackage\CMPackage.dproj</Dependencies>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="MXTSPackage">
+			<MSBuild Projects="MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXTSPackage:Clean">
+			<MSBuild Targets="Clean" Projects="MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXTSPackage:Make">
+			<MSBuild Targets="Make" Projects="MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage">
+			<MSBuild Projects="..\MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage:Clean">
+			<MSBuild Targets="Clean" Projects="..\MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage:Make">
+			<MSBuild Targets="Make" Projects="..\MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage">
+			<MSBuild Projects="..\MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Clean">
+			<MSBuild Targets="Clean" Projects="..\MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Make">
+			<MSBuild Targets="Make" Projects="..\MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="SKQPackage">
+			<MSBuild Projects="..\SKQPackage\SKQPackage.dproj"/>
+		</Target>
+		<Target Name="SKQPackage:Clean">
+			<MSBuild Targets="Clean" Projects="..\SKQPackage\SKQPackage.dproj"/>
+		</Target>
+		<Target Name="SKQPackage:Make">
+			<MSBuild Targets="Make" Projects="..\SKQPackage\SKQPackage.dproj"/>
+		</Target>
+		<Target Name="CMPackage">
+			<MSBuild Projects="..\CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target Name="CMPackage:Clean">
+			<MSBuild Targets="Clean" Projects="..\CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target Name="CMPackage:Make">
+			<MSBuild Targets="Make" Projects="..\CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage;MXPackage;MKPackage;CMPackage" Name="QuarkChart">
+			<MSBuild Projects="..\QChart\QuarkChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Clean;MXPackage:Clean;MKPackage:Clean;CMPackage:Clean" Name="QuarkChart:Clean">
+			<MSBuild Targets="Clean" Projects="..\QChart\QuarkChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Make;MXPackage:Make;MKPackage:Make;CMPackage:Make" Name="QuarkChart:Make">
+			<MSBuild Targets="Make" Projects="..\QChart\QuarkChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage;MXPackage;MKPackage;CMPackage" Name="MXChart">
+			<MSBuild Projects="..\MXChart\MXChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Clean;MXPackage:Clean;MKPackage:Clean;CMPackage:Clean" Name="MXChart:Clean">
+			<MSBuild Targets="Clean" Projects="..\MXChart\MXChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Make;MXPackage:Make;MKPackage:Make;CMPackage:Make" Name="MXChart:Make">
+			<MSBuild Targets="Make" Projects="..\MXChart\MXChart.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage;MXPackage;MKPackage;CMPackage" Name="SKMatrix">
+			<MSBuild Projects="..\SKMatrix\SKMatrix.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Clean;MXPackage:Clean;MKPackage:Clean;CMPackage:Clean" Name="SKMatrix:Clean">
+			<MSBuild Targets="Clean" Projects="..\SKMatrix\SKMatrix.dproj"/>
+		</Target>
+		<Target DependsOnTargets="MXTSPackage:Make;MXPackage:Make;MKPackage:Make;CMPackage:Make" Name="SKMatrix:Make">
+			<MSBuild Targets="Make" Projects="..\SKMatrix\SKMatrix.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="MXTSPackage;MXPackage;MKPackage;SKQPackage;CMPackage;QuarkChart;MXChart;SKMatrix"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="MXTSPackage:Clean;MXPackage:Clean;MKPackage:Clean;SKQPackage:Clean;CMPackage:Clean;QuarkChart:Clean;MXChart:Clean;SKMatrix:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="MXTSPackage:Make;MXPackage:Make;MKPackage:Make;SKQPackage:Make;CMPackage:Make;QuarkChart:Make;MXChart:Make;SKMatrix:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

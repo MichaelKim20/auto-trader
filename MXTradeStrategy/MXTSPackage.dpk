@@ -1,0 +1,71 @@
+package MXTSPackage;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  IndyProtocols,
+  IndyCore,
+  IndySystem,
+  CMPackage,
+  MKPackage;
+
+contains
+  TSSaveOptionDlg in '..\Sources\MXTradeStrategy\TSSaveOptionDlg.pas' {SaveOptionDlg},
+  MXTradeStrategy in '..\Sources\MXTradeStrategy\MXTradeStrategy.pas',
+  MXTradeStrategyBASELINE_N1 in '..\Sources\MXTradeStrategy\MXTradeStrategyBASELINE_N1.pas',
+  MXTradeStrategyBASELINE_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyBASELINE_T1.pas',
+  MXTradeStrategyBASELINE_T2 in '..\Sources\MXTradeStrategy\MXTradeStrategyBASELINE_T2.pas',
+  MXTradeStrategyBB_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyBB_T1.pas',
+  MXTradeStrategyDISPARITY_N1 in '..\Sources\MXTradeStrategy\MXTradeStrategyDISPARITY_N1.pas',
+  MXTradeStrategyDISPARITY_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyDISPARITY_T1.pas',
+  MXTradeStrategyFrame in '..\Sources\MXTradeStrategy\MXTradeStrategyFrame.pas' {TradeStrategyFrame: TFrame},
+  MXTradeStrategyIM_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyIM_T1.pas',
+  MXTradeStrategyIM_T2 in '..\Sources\MXTradeStrategy\MXTradeStrategyIM_T2.pas',
+  MXTradeStrategyIM_T3 in '..\Sources\MXTradeStrategy\MXTradeStrategyIM_T3.pas',
+  MXTradeStrategyMOV_N1 in '..\Sources\MXTradeStrategy\MXTradeStrategyMOV_N1.pas',
+  MXTradeStrategyMOV_N2 in '..\Sources\MXTradeStrategy\MXTradeStrategyMOV_N2.pas',
+  MXTradeStrategyMOV_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyMOV_T1.pas',
+  MXTradeStrategyMOV_T3 in '..\Sources\MXTradeStrategy\MXTradeStrategyMOV_T3.pas',
+  MXTradeStrategyOptionCollection in '..\Sources\MXTradeStrategy\MXTradeStrategyOptionCollection.pas',
+  MXTradeStrategyREL_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyREL_T1.pas',
+  MXTradeStrategyRSI_N1 in '..\Sources\MXTradeStrategy\MXTradeStrategyRSI_N1.pas',
+  MXTradeStrategyRSI_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategyRSI_T1.pas',
+  MXTradeStrategySTC_N1 in '..\Sources\MXTradeStrategy\MXTradeStrategySTC_N1.pas',
+  MXTradeStrategySTC_N2 in '..\Sources\MXTradeStrategy\MXTradeStrategySTC_N2.pas',
+  MXTradeStrategySTC_T1 in '..\Sources\MXTradeStrategy\MXTradeStrategySTC_T1.pas',
+  MXTradeStrategySTC_T2 in '..\Sources\MXTradeStrategy\MXTradeStrategySTC_T2.pas',
+  MXTradeStrategySTC_T3 in '..\Sources\MXTradeStrategy\MXTradeStrategySTC_T3.pas',
+  MXTSLineValueSeries in '..\Sources\MXTradeStrategy\MXTSLineValueSeries.pas',
+  MXTSVariable in '..\Sources\MXTradeStrategy\MXTSVariable.pas',
+  MXTradeStrategyMOV_T2 in '..\Sources\MXTradeStrategy\MXTradeStrategyMOV_T2.pas';
+
+end.

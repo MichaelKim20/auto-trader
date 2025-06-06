@@ -1,0 +1,135 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{4F88C77E-5A2C-46D0-B645-D643E1181E62}</ProjectGuid>
+			<MainSource>SKQPackage.dpk</MainSource>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_BplOutput>..\Lib\</DCC_BplOutput>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_UnitSearchPath>..\Graphic32;..\Intermediate\CMPackage;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_DependencyCheckOutputName>..\Lib\SKQPackage.bpl</DCC_DependencyCheckOutputName>
+			<DCC_DcpOutput>..\Intermediate\SKQPackage\</DCC_DcpOutput>
+			<GenDll>true</GenDll>
+			<DCC_DcuOutput>..\Intermediate\SKQPackage\</DCC_DcuOutput>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<GenPackage>true</GenPackage>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="SKQPackage.dpk">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="GR32_BDS2009.dcp"/>
+			<DCCReference Include="CMPackage.dcp"/>
+			<DCCReference Include="IndyProtocols.dcp"/>
+			<DCCReference Include="IndyCore.dcp"/>
+			<DCCReference Include="IndySystem.dcp"/>
+			<DCCReference Include="inet.dcp"/>
+			<DCCReference Include="xmlrtl.dcp"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartBlock.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartBlockManager.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartControl.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartData.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartDataManager.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartDataSeries.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartDefine.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQChartTraceEvent.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQColorSet.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQConst.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQIndicatorValue.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQLineValue.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQLineValueSeries.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQLineValueSeriesCreator.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQMaxMin.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQPosInfo.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQPosValue.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQRequestData.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQSetting.pas"/>
+			<DCCReference Include="..\Sources\SKQPackage\FNQStreamChartDataSeries.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">SKQPackage.dpk</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1042</VersionInfo>
+						<VersionInfo Name="CodePage">949</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

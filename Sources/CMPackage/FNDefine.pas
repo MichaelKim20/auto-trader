@@ -1,0 +1,26 @@
+unit FNDefine;
+
+interface
+
+uses
+  Messages;
+
+// WM_USER
+const
+  WM_MAIN_PROCESS = WM_USER + 3000;
+  WM_CHILD_PROCESS = WM_USER + 3001;
+
+  WM_SOCKETEVENT = WM_USER + 3100;
+
+  WM_REPLY_EVENT = WM_USER + 3201;
+  WM_STREAM_EVENT = WM_USER + 3202;
+
+  WM_SOCKET_EVENT = WM_USER + 3402;
+
+  WM_BLOCK_EVENT = WM_USER + 3501;
+
+  WM_BLOCK_STOP_EVENT = WM_USER + 3505;
+
+implementation
+
+end.

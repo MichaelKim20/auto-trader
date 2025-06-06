@@ -1,0 +1,19 @@
+<Station>
+<SessionID>M13SN20140221143506{58B2E674-7E5F-4E07-85CA-B5DA87232B7A}</SessionID>
+<ApplicationName>MXTraderN-CME</ApplicationName>
+<OPSUserID>MKKIM</OPSUserID>
+<OPSSessionId>20140221143506</OPSSessionId>
+<SecUserName>sky09376</SecUserName>
+<SecTradeMode>1</SecTradeMode>
+<Version>6.203</Version>
+<BuilderDate>(2014년 02월 14일 15시 00분)</BuilderDate>
+<AgentCode>M</AgentCode>
+<PGMCode>13</PGMCode>
+<GradeCode>S</GradeCode>
+<SecCode>N</SecCode>
+<TradeMarketCode></TradeMarketCode>
+<Date>20140221</Date>
+<Time>143407</Time>
+<LogFile>
+</LogFile>
+</Station>

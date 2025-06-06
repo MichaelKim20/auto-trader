@@ -1,0 +1,132 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E2D8C8A2-8775-47CB-B418-0F9B02537C33}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CMPackage\CMPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MKPackage\MKPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MXTradeStrategy\MXTSPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MXPackage\MXPackage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MXTraderH_CME\CMEX.dproj">
+            <Dependencies>CMPackage\CMPackage.dproj;MKPackage\MKPackage.dproj;MXTradeStrategy\MXTSPackage.dproj;MXPackage\MXPackage.dproj</Dependencies>
+        </Projects>
+        <Projects Include="MXQuote\MXQuote.dproj">
+            <Dependencies>CMPackage\CMPackage.dproj;MKPackage\MKPackage.dproj;MXTradeStrategy\MXTSPackage.dproj;MXPackage\MXPackage.dproj;APIHD_CME\APIHD_CME.dproj</Dependencies>
+        </Projects>
+        <Projects Include="LaunchCMEX\LaunchCMEX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="APIHD_CME\APIHD_CME.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MXChart\MXChart.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CMPackage">
+        <MSBuild Projects="CMPackage\CMPackage.dproj"/>
+    </Target>
+    <Target Name="CMPackage:Clean">
+        <MSBuild Projects="CMPackage\CMPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CMPackage:Make">
+        <MSBuild Projects="CMPackage\CMPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MKPackage">
+        <MSBuild Projects="MKPackage\MKPackage.dproj"/>
+    </Target>
+    <Target Name="MKPackage:Clean">
+        <MSBuild Projects="MKPackage\MKPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MKPackage:Make">
+        <MSBuild Projects="MKPackage\MKPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MXTSPackage">
+        <MSBuild Projects="MXTradeStrategy\MXTSPackage.dproj"/>
+    </Target>
+    <Target Name="MXTSPackage:Clean">
+        <MSBuild Projects="MXTradeStrategy\MXTSPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MXTSPackage:Make">
+        <MSBuild Projects="MXTradeStrategy\MXTSPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MXPackage">
+        <MSBuild Projects="MXPackage\MXPackage.dproj"/>
+    </Target>
+    <Target Name="MXPackage:Clean">
+        <MSBuild Projects="MXPackage\MXPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MXPackage:Make">
+        <MSBuild Projects="MXPackage\MXPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CMEX" DependsOnTargets="CMPackage;MKPackage;MXTSPackage;MXPackage">
+        <MSBuild Projects="MXTraderH_CME\CMEX.dproj"/>
+    </Target>
+    <Target Name="CMEX:Clean" DependsOnTargets="CMPackage:Clean;MKPackage:Clean;MXTSPackage:Clean;MXPackage:Clean">
+        <MSBuild Projects="MXTraderH_CME\CMEX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CMEX:Make" DependsOnTargets="CMPackage:Make;MKPackage:Make;MXTSPackage:Make;MXPackage:Make">
+        <MSBuild Projects="MXTraderH_CME\CMEX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MXQuote" DependsOnTargets="CMPackage;MKPackage;MXTSPackage;MXPackage;APIHD_CME">
+        <MSBuild Projects="MXQuote\MXQuote.dproj"/>
+    </Target>
+    <Target Name="MXQuote:Clean" DependsOnTargets="CMPackage:Clean;MKPackage:Clean;MXTSPackage:Clean;MXPackage:Clean;APIHD_CME:Clean">
+        <MSBuild Projects="MXQuote\MXQuote.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MXQuote:Make" DependsOnTargets="CMPackage:Make;MKPackage:Make;MXTSPackage:Make;MXPackage:Make;APIHD_CME:Make">
+        <MSBuild Projects="MXQuote\MXQuote.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LaunchCMEX">
+        <MSBuild Projects="LaunchCMEX\LaunchCMEX.dproj"/>
+    </Target>
+    <Target Name="LaunchCMEX:Clean">
+        <MSBuild Projects="LaunchCMEX\LaunchCMEX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LaunchCMEX:Make">
+        <MSBuild Projects="LaunchCMEX\LaunchCMEX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="APIHD_CME">
+        <MSBuild Projects="APIHD_CME\APIHD_CME.dproj"/>
+    </Target>
+    <Target Name="APIHD_CME:Clean">
+        <MSBuild Projects="APIHD_CME\APIHD_CME.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="APIHD_CME:Make">
+        <MSBuild Projects="APIHD_CME\APIHD_CME.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MXChart">
+        <MSBuild Projects="MXChart\MXChart.dproj"/>
+    </Target>
+    <Target Name="MXChart:Clean">
+        <MSBuild Projects="MXChart\MXChart.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MXChart:Make">
+        <MSBuild Projects="MXChart\MXChart.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CMPackage;MKPackage;MXTSPackage;MXPackage;CMEX;MXQuote;LaunchCMEX;APIHD_CME;MXChart"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CMPackage:Clean;MKPackage:Clean;MXTSPackage:Clean;MXPackage:Clean;CMEX:Clean;MXQuote:Clean;LaunchCMEX:Clean;APIHD_CME:Clean;MXChart:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CMPackage:Make;MKPackage:Make;MXTSPackage:Make;MXPackage:Make;CMEX:Make;MXQuote:Make;LaunchCMEX:Make;APIHD_CME:Make;MXChart:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

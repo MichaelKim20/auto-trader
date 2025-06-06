@@ -1,0 +1,91 @@
+6A   Australian Dollar                       010016AU11        10110117001600
+6B   British Pound                           010026BU11        10110117001600
+6C   Canadian Dollar                         010036CU11        10110117001600
+6E   Euro FX                                 010046EU11        10110117001600
+6J   Japanese Yen                            010056JU11        10110117001600
+6N   New Zealand Dollar                      010066NU11        10110117001600
+6S   Swiss Franc                             010076SU11        10110117001600
+E7   E-mini EUR/USD                          01008E7U11        10110117001600
+J7   E-mini JPY/USD                          01009J7U11        10110117001600
+KRW  KRW/USD                                 01010KRWM11       10010117001600
+M6A  E-micro AUD/USD                         01011M6AU11       10110117001600
+M6B  E-micro GBP/USD                         01012M6BU11       10110117001600
+M6C  E-micro USD/CAD                         01013M6CU11       10110117001600
+M6E  E-micro EUR/USD                         01014M6EU11       10110117001600
+M6J  E-micro USD/JPY                         01015M6JU11       10110117001600
+M6S  E-micro USD/CHF                         01016M6SU11       10110117001600
+RY   Euro/Yen Cross                          01017RYU11        10110117001600
+EMD  E-mini S&P MidCap 400                   01018EMDU11       00110215301515
+ES   E-mini S&P 500                          01019ESU11        00110215301515
+NIY  Nikkei 225 Yen-based                    01020NIYU11       00110215301515
+NKD  Nikkei 225 Dollar-based                 01021NKDU11       00110215301515
+NQ   E-mini NASDAQ 100                       01022NQU11        00110215301515
+USD  CME $ Index                             01023USDM08       00010217001600
+VX   Volatility Index                        01024VXM10        00010208301515
+YM   Mini DowJones                           02025YMU11        00110215301515
+GE   Eurodollar                              01026GEZ11        00110317001600
+GLB  Libor                                   01027GLBG08       00010317001600
+ZB   30Year U.S. T-Bond                      02028ZBM11        00110317301600
+ZF   5Year U.S. T-Note                       02029ZFU11        00110317301600
+ZN   10Year U.S. T-Note                      02030ZNU11        00110317301600
+ZQ   30 Day Federal Funds                    02031ZQQ11        00010317301600
+ZT   2Year U.S.T-Note                        02032ZTU11        00110317301600
+CL   Crude Oil                               01033CLQ11        00110417001615
+HO   Heating Oil                             01034HON11        00110417001620
+NG   Natural Gas                             01035NGN11        00110417001620
+QG   e-miNY Natural Gas                      01036QGN11        00110417001615
+QM   e-miNY Crude Oil                        01037QMN11        00110417001620
+RB   RBOB Gasoline                           01038RBQ11        00110417001620
+GC   NYMEX Gold                              01039GCQ11        00110517001620
+HG   NYMEX Copper                            01040HGN11        00110517001620
+PA   Palladium                               01041PAU11        00110517001620
+PL   Platinum                                01042PLN11        00110517001620
+SI   NYMEX Silver                            01043SIN11        00110517001620
+ZC   Corn                                    02044ZCN11        00110618001315
+ZL   Soybean Oil                             02045ZLN11        00110618001315
+ZM   Soybean Meal                            02046ZMN11        00110618001315
+ZO   Oats                                    02047ZON11        00110618001315
+ZR   Rough Rice                              02048ZRN11        00110618001315
+ZS   Soybeans                                02049ZSN11        00110618001315
+ZW   Wheat                                   02050ZWN11        00110618001315
+GF   Feeder Cattle                           01051GFQ11        00110717001600
+GPB  Pork Bellies                            01052GPBN11       00110717001600
+HE   Lean Hogs                               01053HEQ11        00110717001600
+LE   Live Cattle                             01054LEQ11        00110717001600
+FDX  DAX                                     05001FDXM11       00150207592206
+FESX DJ EURO STOXX 50                        05002FESXM11      00150207592206
+FGBL Bund                                    05001FGBLM11      00150307592206
+FGBM Bobl                                    05002FGBMM11      00150307592206
+FGBS Schatz                                  05003FGBSM11      00150307592206
+HCEI H-Shares                                06001HCEIM11      00160209151615
+HSI  Hang Seng                               06002HSIM11       00160209151615
+MCH  Mini H-Shares Index                     06003MCHM11       00160209151615
+MHI  Mini Hang Seng Index                    06004MHIM11       00160209151615
+FEI  Euribor                                 04001FEIZ11       00140300592100
+FEY  Euroyen                                 04002FEYU08       00040307001600
+FLG  Long Gilt                               04003FLGM11       00140307591800
+FSS  Short Sterling                          04004FSSM11       00140307291800
+FYB  LIFFE JGB                               04005FYBU08       00040307001600
+FTS  FTSE 100                                04001FTSM11       00140200592100
+DX   US Dollar Index                         07001DXM11        00170219001700
+TF   ICE E-mini Russell 2000                 07002TFM11        00170219001700
+BRN  ICE Brent                               07001BRNN11       00170419001700
+CER  ECX CER                                 07002CERZ11       00170401001100
+CFI  ECX EUA                                 07003CFIZ11       00170400591100
+GAS  ICE Gasoil                              07004GASM11       00170419001700
+WBS  ICE WTI Crude                           07005WBSN11       00170419001700
+CC   ICE Cocoa                               07001CCU11        00170902591300
+CT   ICE Cotton                              07002CTZ11        00170919591330
+KC   ICE Coffee                              07003KCU11        00170902291300
+OJ   ICE Orange Juice                        07004OJU11        00170906591300
+SB   ICE Sugar                               07005SBV11        00170902301300
+SFC  FTSE Xinhua ChinaA50 Index              03001SFCM11       00130216101525
+SIN  S&P CNX Nifty Index                     03002SINM11       00130219151810
+SJB  Mini JGB                                03003SJBM08       00030207451715
+SNK  Nikkei 225                              03004SNKU11       00130215151425
+SSG  SiMSCI                                  03005SSGM11       00130218141710
+STW  MSCI Taiwan                             03006STWM11       00130214341345
+JGB  TSE 10-year JGB                         08001JGBU11       00180315291500
+JNI  OSE Nikkei225                           08001JNIU11       00180216291510
+JNM  OSE Mini Nikkei225                      08002JNMU11       00180216291510
+JTI  TSE TOPIX                               08003JTIU11       00180216291510

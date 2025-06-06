@@ -1,0 +1,108 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E2D8C8A2-8775-47CB-B418-0F9B02537C33}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="CMPackage\CMPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MKPackage\MKPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MXTradeStrategy\MXTSPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MXPackage\MXPackage.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="APIHN_KRX\APIHN_KRX.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="APIWR_KRX\APIWR_KRX.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MXTraderN_K\MXTraderN_K.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="CMPackage">
+			<MSBuild Projects="CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target Name="CMPackage:Clean">
+			<MSBuild Targets="Clean" Projects="CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target Name="CMPackage:Make">
+			<MSBuild Targets="Make" Projects="CMPackage\CMPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage">
+			<MSBuild Projects="MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Clean">
+			<MSBuild Targets="Clean" Projects="MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="MKPackage:Make">
+			<MSBuild Targets="Make" Projects="MKPackage\MKPackage.dproj"/>
+		</Target>
+		<Target Name="MXTSPackage">
+			<MSBuild Projects="MXTradeStrategy\MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXTSPackage:Clean">
+			<MSBuild Targets="Clean" Projects="MXTradeStrategy\MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXTSPackage:Make">
+			<MSBuild Targets="Make" Projects="MXTradeStrategy\MXTSPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage">
+			<MSBuild Projects="MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage:Clean">
+			<MSBuild Targets="Clean" Projects="MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="MXPackage:Make">
+			<MSBuild Targets="Make" Projects="MXPackage\MXPackage.dproj"/>
+		</Target>
+		<Target Name="APIHN_KRX">
+			<MSBuild Projects="APIHN_KRX\APIHN_KRX.dproj"/>
+		</Target>
+		<Target Name="APIHN_KRX:Clean">
+			<MSBuild Targets="Clean" Projects="APIHN_KRX\APIHN_KRX.dproj"/>
+		</Target>
+		<Target Name="APIHN_KRX:Make">
+			<MSBuild Targets="Make" Projects="APIHN_KRX\APIHN_KRX.dproj"/>
+		</Target>
+		<Target Name="APIWR_KRX">
+			<MSBuild Projects="APIWR_KRX\APIWR_KRX.dproj"/>
+		</Target>
+		<Target Name="APIWR_KRX:Clean">
+			<MSBuild Targets="Clean" Projects="APIWR_KRX\APIWR_KRX.dproj"/>
+		</Target>
+		<Target Name="APIWR_KRX:Make">
+			<MSBuild Targets="Make" Projects="APIWR_KRX\APIWR_KRX.dproj"/>
+		</Target>
+		<Target Name="MXTraderN_K">
+			<MSBuild Projects="MXTraderN_K\MXTraderN_K.dproj"/>
+		</Target>
+		<Target Name="MXTraderN_K:Clean">
+			<MSBuild Targets="Clean" Projects="MXTraderN_K\MXTraderN_K.dproj"/>
+		</Target>
+		<Target Name="MXTraderN_K:Make">
+			<MSBuild Targets="Make" Projects="MXTraderN_K\MXTraderN_K.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="CMPackage;MKPackage;MXTSPackage;MXPackage;APIHN_KRX;APIWR_KRX;MXTraderN_K"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="CMPackage:Clean;MKPackage:Clean;MXTSPackage:Clean;MXPackage:Clean;APIHN_KRX:Clean;APIWR_KRX:Clean;MXTraderN_K:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="CMPackage:Make;MKPackage:Make;MXTSPackage:Make;MXPackage:Make;APIHN_KRX:Make;APIWR_KRX:Make;MXTraderN_K:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,22 @@
+[TRINFO]
+TRName    =예스스탁 동의서등록
+TRCode    =g11004.AS0133%;
+ScreenNo  = ; 실제 화면 번호
+Server    =1; 접속 서버
+Compress  =1; 압축 	0/1
+Encrypt   =0; 암호화	0/1
+PublicAuth=1; 공인인증 0/1
+OutputCnt =1;Fid 출력값 갯수
+DataHeader=3; 2:해외주문, 3:해외조회, 4:국내주문, 5:국내조회
+
+[INPUT]
+사용자아이디	=	000, 08, 0, A ; 
+계좌번호        =	008, 11, 0, A ; 
+동의여부        =	014, 01, 0, A ; "동의여부(Y,N)
+
+[OUTPUT]
+
+@START_OutRec1=1
+	에러코드		= 000, 05, 0, A ; "000"
+	에러메시지      = 005, 80, 0, A ; "001"
+@END_OutRec1

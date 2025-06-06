@@ -1,0 +1,19 @@
+<Station>
+<SessionID>M13SB20150817155526{50C0A08B-B4F1-4AAB-8BF0-2BC308FB8E91}</SessionID>
+<ApplicationName>MXTraderB-CME</ApplicationName>
+<OPSUserID>AWONG</OPSUserID>
+<OPSSessionId>20150817155526</OPSSessionId>
+<SecUserName>sky09376</SecUserName>
+<SecTradeMode>1</SecTradeMode>
+<Version>6.222</Version>
+<BuilderDate>(2015년 8월 05일 20시 00분)</BuilderDate>
+<AgentCode>M</AgentCode>
+<PGMCode>13</PGMCode>
+<GradeCode>S</GradeCode>
+<SecCode>B</SecCode>
+<TradeMarketCode></TradeMarketCode>
+<Date>20150817</Date>
+<Time>155538</Time>
+<LogFile>
+</LogFile>
+</Station>

@@ -1,0 +1,104 @@
+package MXPackage;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  xmlrtl,
+  inet,
+  CMPackage,
+  IndyProtocols,
+  IndyCore,
+  IndySystem,
+  MKPackage,
+  MXTSPackage;
+
+contains
+  CommonTRMaker in '..\Sources\MXPackage\CommonTRMaker.pas',
+  FNAutoRunConfig in '..\Sources\MXPackage\FNAutoRunConfig.pas',
+  FNConditionArray in '..\Sources\MXPackage\FNConditionArray.pas',
+  FNConditionData in '..\Sources\MXPackage\FNConditionData.pas',
+  FNLoadItem in '..\Sources\MXPackage\FNLoadItem.pas',
+  MXVariable in '..\Sources\MXPackage\MXVariable.pas',
+  FNMatrixChildForm in '..\Sources\MXPackage\FNMatrixChildForm.pas',
+  FNMatrixMainForm in '..\Sources\MXPackage\FNMatrixMainForm.pas',
+  FNAgentManager in '..\Sources\MXPackage\FNAgentManager.pas',
+  FNAccountArray in '..\Sources\MXPackage\FNAccountArray.pas',
+  FNAccountData in '..\Sources\MXPackage\FNAccountData.pas',
+  FNChildFrameCustom in '..\Sources\MXPackage\FNChildFrameCustom.pas' {ChildFrameCustom: TFrame},
+  FNTickerItem in '..\Sources\MXPackage\FNTickerItem.pas',
+  FNControlColorSet in '..\Sources\MXPackage\FNControlColorSet.pas',
+  FNTradeSystem in '..\Sources\MXPackage\TradeSystem\FNTradeSystem.pas',
+  FNTrafficManager in '..\Sources\MXPackage\TradeSystem\FNTrafficManager.pas',
+  MXSumaryOption in '..\Sources\MXPackage\Matrix\Block\MXSumaryOption.pas',
+  MXBlock in '..\Sources\MXPackage\Matrix\Block\MXBlock.pas',
+  MXSystemManager in '..\Sources\MXPackage\Matrix\Block\MXSystemManager.pas',
+  FNMatrixChartBlock in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartBlock.pas',
+  FNMatrixChartBlockManager in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartBlockManager.pas',
+  FNMatrixChartControl in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartControl.pas',
+  FNMatrixChartControlBase in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartControlBase.pas',
+  FNMatrixChartDefine in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartDefine.pas',
+  FNMatrixChartTraceEvent in '..\Sources\MXPackage\Matrix\Chart\FNMatrixChartTraceEvent.pas',
+  FNMatrixColorSet in '..\Sources\MXPackage\Matrix\Chart\FNMatrixColorSet.pas',
+  FNMatrixConst in '..\Sources\MXPackage\Matrix\Chart\FNMatrixConst.pas',
+  FNMatrixLineValueSeriesCreator in '..\Sources\MXPackage\Matrix\Chart\FNMatrixLineValueSeriesCreator.pas',
+  FNMatrixManageChartControl in '..\Sources\MXPackage\Matrix\Chart\FNMatrixManageChartControl.pas',
+  FNMatrixMergeChartControl in '..\Sources\MXPackage\Matrix\Chart\FNMatrixMergeChartControl.pas',
+  FNMatrixPosInfo in '..\Sources\MXPackage\Matrix\Chart\FNMatrixPosInfo.pas',
+  FNMatrixPosValue in '..\Sources\MXPackage\Matrix\Chart\FNMatrixPosValue.pas',
+  FNVolumePriceArray in '..\Sources\MXPackage\FNVolumePriceArray.pas',
+  FNVolumePriceData in '..\Sources\MXPackage\FNVolumePriceData.pas',
+  FNVPSummaryArray in '..\Sources\MXPackage\FNVPSummaryArray.pas',
+  FNVPSummaryData in '..\Sources\MXPackage\FNVPSummaryData.pas',
+  MXOrderManager in '..\Sources\MXPackage\Matrix\Block\MXOrderManager.pas',
+  MXBlockManager in '..\Sources\MXPackage\Matrix\Block\MXBlockManager.pas',
+  FNVirtualTradeManager in '..\Sources\MXPackage\FNVirtualTradeManager.pas',
+  FNReceiveSensor in '..\Sources\MXPackage\FNReceiveSensor.pas',
+  FNMatrixLineValueSeries in '..\Sources\MXPackage\Matrix\Chart\FNMatrixLineValueSeries.pas',
+  FNNAVAnalChartBlock in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartBlock.pas',
+  FNNAVAnalChartBlockManager in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartBlockManager.pas',
+  FNNAVAnalChartControl in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartControl.pas',
+  FNNAVAnalChartControlBase in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartControlBase.pas',
+  FNNAVAnalChartData in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartData.pas',
+  FNNAVAnalChartDataSeries in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartDataSeries.pas',
+  FNNAVAnalChartDefine in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartDefine.pas',
+  FNNAVAnalChartTraceEvent in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalChartTraceEvent.pas',
+  FNNAVAnalColorSet in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalColorSet.pas',
+  FNNAVAnalConst in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalConst.pas',
+  FNNAVAnalLineValue in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalLineValue.pas',
+  FNNAVAnalLineValueSeries in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalLineValueSeries.pas',
+  FNNAVAnalLineValueSeriesCreator in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalLineValueSeriesCreator.pas',
+  FNNAVAnalMaxMin in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalMaxMin.pas',
+  FNNAVAnalPosInfo in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalPosInfo.pas',
+  FNNAVAnalPosValue in '..\Sources\MXPackage\NAVAnalisys\FNNAVAnalPosValue.pas',
+  FNNAVData in '..\Sources\MXPackage\NAVAnalisys\FNNAVData.pas',
+  FNNAVDataSeries in '..\Sources\MXPackage\NAVAnalisys\FNNAVDataSeries.pas',
+  MXOption in '..\Sources\MXPackage\Matrix\Block\MXOption.pas';
+
+end.
